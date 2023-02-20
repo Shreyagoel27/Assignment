@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;900&family=Poppins:wght@100;200;300;400&display=swap');
+span {
+    content: "\27F6";
+}
+
+.btn1{
+    background-color: 'red';
+    margin-Left:73px;
+}
+.cl2{
+  padding-top: 76px;
+   text-align: center;
+    width:638px;
+    height:17;
+    display: inline-block;
+  margin: 0 auto;
+  
+}
+.cl6{
+  padding-top: 20px;
+  text-align: center;
+    width: 324px;
+height: 91px;
+display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+}
+.cl4{
+
+    font: normal normal bold 70px/84px Playfair Display;
+    color:#393842
+}
+.cl5{
+    margin-top: 36px;
+}
+.cl7{
+    font: normal normal bold 36px/43px Playfair Display;
+letter-spacing: 0px;
+color:#393842
+}
+
+.container {
+    position: relative;
+    width: 499px;
+    height: 607px;
+}
+
+  .top-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: 1;
+   
+  }
+  
+  .bottom-div {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #72775B 0% 0% no-repeat padding-box;
+border-radius: 300px 300px 0px 0px;
+  }
+  .container-2 {
+    position: relative;
+    width: 391px;
+    height: 444px;
+    
+  }
+  
+  .top-div-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: 1;
+  }
+  
+  .bottom-div-2 {
+    position: absolute;
+    top: -16px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #72775B 0% 0% no-repeat padding-box;
+    border-radius: 300px 300px 0px 0px;
+  }
+  .arrow {
+    position: absolute;
+    top: 25px;
+    width: 90%;
+    height: 10px;
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+   
+  }
+  .arrow::before {
+    top: 12px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+  }
+
+.container-3 {
+    position: relative;
+    width: 568px;
+height: 728px;
+  }
+  
+  .top-div-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    z-index: 1;
+  }
+  
+  .bottom-div-3 {
+    position: absolute;
+    top: 23px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: #72775B 0% 0% no-repeat padding-box;
+    border-radius: 300px 300px 0px 0px;
+  }
+
+  @media screen and (max-width: 768px)
+  {
+      .container{
+          width: 304px;
+          height: 382px;
+      }
+      .container-2{
+          width: 302px;
+          height: 364px;
+      }
+      .container-3 {
+        width: 272px;
+        height: 340px;
+      }
+  }
